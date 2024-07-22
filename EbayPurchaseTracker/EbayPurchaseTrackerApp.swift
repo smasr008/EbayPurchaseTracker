@@ -11,7 +11,7 @@ import SwiftUI
 struct EbayPurchaseTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }

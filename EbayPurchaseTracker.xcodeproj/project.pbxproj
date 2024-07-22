@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B1AC0D9D2C4D449F00FA066F /* EbayPurchaseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC0D9C2C4D449F00FA066F /* EbayPurchaseTrackerApp.swift */; };
-		B1AC0D9F2C4D449F00FA066F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC0D9E2C4D449F00FA066F /* ContentView.swift */; };
 		B1AC0DA12C4D44A100FA066F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AC0DA02C4D44A100FA066F /* Assets.xcassets */; };
 		B1AC0DA42C4D44A100FA066F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AC0DA32C4D44A100FA066F /* Preview Assets.xcassets */; };
+		B1AC0DAB2C4DFEAC00FA066F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC0DAA2C4DFEAC00FA066F /* LoginView.swift */; };
+		B1AC0DAD2C4DFEFD00FA066F /* InsideAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC0DAC2C4DFEFD00FA066F /* InsideAppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1AC0D992C4D449F00FA066F /* EbayPurchaseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EbayPurchaseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AC0D9C2C4D449F00FA066F /* EbayPurchaseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbayPurchaseTrackerApp.swift; sourceTree = "<group>"; };
-		B1AC0D9E2C4D449F00FA066F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1AC0DA02C4D44A100FA066F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1AC0DA32C4D44A100FA066F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1AC0DAA2C4DFEAC00FA066F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B1AC0DAC2C4DFEFD00FA066F /* InsideAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsideAppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				B1AC0D9C2C4D449F00FA066F /* EbayPurchaseTrackerApp.swift */,
-				B1AC0D9E2C4D449F00FA066F /* ContentView.swift */,
+				B1AC0DAA2C4DFEAC00FA066F /* LoginView.swift */,
+				B1AC0DAC2C4DFEFD00FA066F /* InsideAppView.swift */,
 				B1AC0DA02C4D44A100FA066F /* Assets.xcassets */,
 				B1AC0DA22C4D44A100FA066F /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1AC0D9F2C4D449F00FA066F /* ContentView.swift in Sources */,
+				B1AC0DAB2C4DFEAC00FA066F /* LoginView.swift in Sources */,
+				B1AC0DAD2C4DFEFD00FA066F /* InsideAppView.swift in Sources */,
 				B1AC0D9D2C4D449F00FA066F /* EbayPurchaseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
