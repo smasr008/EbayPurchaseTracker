@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B137559C2C51470A00B7F89D /* AddPurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B137559B2C51470A00B7F89D /* AddPurchaseView.swift */; };
 		B1AC0D9D2C4D449F00FA066F /* EbayPurchaseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC0D9C2C4D449F00FA066F /* EbayPurchaseTrackerApp.swift */; };
 		B1AC0DA12C4D44A100FA066F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AC0DA02C4D44A100FA066F /* Assets.xcassets */; };
 		B1AC0DA42C4D44A100FA066F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AC0DA32C4D44A100FA066F /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B137559B2C51470A00B7F89D /* AddPurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPurchaseView.swift; sourceTree = "<group>"; };
 		B1AC0D992C4D449F00FA066F /* EbayPurchaseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EbayPurchaseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AC0D9C2C4D449F00FA066F /* EbayPurchaseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EbayPurchaseTrackerApp.swift; sourceTree = "<group>"; };
 		B1AC0DA02C4D44A100FA066F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				B1AC0D9C2C4D449F00FA066F /* EbayPurchaseTrackerApp.swift */,
 				B1AC0DAA2C4DFEAC00FA066F /* LoginView.swift */,
 				B1AC0DAC2C4DFEFD00FA066F /* InsideAppView.swift */,
+				B137559B2C51470A00B7F89D /* AddPurchaseView.swift */,
 				B1AC0DA02C4D44A100FA066F /* Assets.xcassets */,
 				B1AC0DA22C4D44A100FA066F /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				B1AC0DAB2C4DFEAC00FA066F /* LoginView.swift in Sources */,
 				B1AC0DAD2C4DFEFD00FA066F /* InsideAppView.swift in Sources */,
 				B1AC0D9D2C4D449F00FA066F /* EbayPurchaseTrackerApp.swift in Sources */,
+				B137559C2C51470A00B7F89D /* AddPurchaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,13 +6,42 @@
 //
 
 import SwiftUI
-
+ 
 struct AddPurchaseView: View {
+    @Binding var purchases: [Purchase]
+    @State private var itemName: String = ""
+    @State private var price: String = ""
+    @State private var purchaseDate: String = ""
+    @Environment(\.presentationMode) var presentationMode
+ 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            Form {
+                Section(header: Text("Item Details")) {
+                    TextField("Item Name", text: $itemName)
+                    TextField("Price", text: $price)
+                    TextField("Purchase Date", text: $purchaseDate)
+                }
+ 
+                Button(action: {
+                    let newPurchase = Purchase(itemName: itemName, price: price, purchaseDate: purchaseDate)
+                    purchases.append(newPurchase)
+                    presentationMode.wrappedValue.dismiss()
+                }) {
+                    Text("Add Purchase")
+                }
+            }
+            .navigationTitle("Add Purchase")
+            .navigationBarItems(trailing: Button(action: {
+                presentationMode.wrappedValue.dismiss()
+            }) {
+                Text("Cancel").bold()
+            })
+        }
     }
 }
-
+ 
 #Preview {
-    AddPurchaseView()
+    AddPurchaseView(purchases: .constant([Purchase(itemName: "Item 1", price: "$10", purchaseDate: "2024-07-21")]))
 }
+ 
